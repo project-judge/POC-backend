@@ -1,0 +1,21 @@
+{
+  "name": "project-judge-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fastify": "^4.28.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  }
+}
