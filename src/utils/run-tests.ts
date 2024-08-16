@@ -22,8 +22,8 @@ export async function runTests(codeSolution: string, question: Question){
     const errorResult = JSON.parse(error.stdout)
     console.log(errorResult.testResults[0])
   }finally{
-    // fs.unlinkSync(codeSolutionFile)
-    // fs.unlinkSync(codeTestFile)
+    fs.unlinkSync(codeSolutionFile)
+    fs.unlinkSync(codeTestFile)
   }
 
 
